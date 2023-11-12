@@ -7,6 +7,15 @@ Return the count of unival sub-trees in the given binary tree.
 In unival tree, 
 all the nodes below the root node, have the same value as the data of the root.
 
+ 0
+  / \
+ 1   0
+    / \
+   1   0
+  / \
+ 1   1
+
+There are 5 unival subtrees (4 ones and 1 zero) in the tree above!
 """
 
 import queue
